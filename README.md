@@ -5,7 +5,7 @@ Batch rest calls and receive single response
 
 
 Here is an example of a batch of REST calls:
-
+`
    requests: [
         {
             host: 'jsonplaceholder.typicode.com',
@@ -20,10 +20,10 @@ Here is an example of a batch of REST calls:
             requestId: 'command2'
         }
     ]
-
+`
 
 The response will include one data object for each requested command:
-
+`
   {
     "success": true,
     "responses": {
@@ -40,3 +40,4 @@ The response will include one data object for each requested command:
       }
     }
   }
+`
