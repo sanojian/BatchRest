@@ -6,6 +6,7 @@ Batch rest calls and receive single response
 Included is a synchronous version (batchGetSync) for lighter server load and an asynchronous
 version (batchGetAsync) for higher performance.
 
+To run the unit tests, "npm install -g mocha", run the server with "node app" and then run "mocha".
 
 Here is an example of a batch of REST calls:
 ```
