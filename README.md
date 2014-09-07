@@ -3,6 +3,9 @@ BatchRest
 
 Batch rest calls and receive single response
 
+Included is a synchronous version (batchGetSync) for lighter server load and an asynchronous
+version (batchGetAsync) for higher performance.
+
 
 Here is an example of a batch of REST calls:
 ```
